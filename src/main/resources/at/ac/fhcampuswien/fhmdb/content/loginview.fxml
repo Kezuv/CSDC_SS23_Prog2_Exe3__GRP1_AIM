@@ -48,7 +48,7 @@
                </padding>
                 </Label>
                 <Label alignment="CENTER_LEFT" style="-fx-font-size: 20" styleClass="text-yellow" stylesheets="@../styles/styles.css">Password</Label>
-                <TextField fx:id="Password" maxWidth="250.0" prefHeight="30.0" promptText="password">
+                <TextField fx:id="password" maxWidth="250.0" prefHeight="30.0" promptText="password">
                     <VBox.margin>
                         <Insets />
                     </VBox.margin>

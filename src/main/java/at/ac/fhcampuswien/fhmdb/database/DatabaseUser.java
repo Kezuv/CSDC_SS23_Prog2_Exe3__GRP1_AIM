@@ -9,7 +9,7 @@ import com.j256.ormlite.table.TableUtils;
 import java.sql.SQLException;
 
 public class DatabaseUser {
-    public static final String databaseUrl = "jdbc:h2:file ./db/usersdb";
+    public static final String databaseUrl = "jdbc:h2:file:./db/usersdb";
     public static final String user = "user";
     public static final String password = "password";
 
